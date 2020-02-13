@@ -1,0 +1,108 @@
+footer{
+  min-height: 5vh;
+  width: 100%;
+  background-color: #333;
+  text-align: center;
+  overflow:auto;
+}
+.main{
+  min-height: 90vh;
+  width:100%;
+}
+#banner img{
+  width: 100%;
+}
+#signup{
+  max-width: 25%;
+}
+#about{
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+header nav{
+  margin-bottom: 0 !important;
+  border-radius: 0 !important;
+}
+.site_functions img{
+  width: 64px;
+}
+.site_functions{
+  width:100%;
+  display:flex;
+  justify-content: space-around;
+}
+.function{
+  text-align:center;
+}
+.credits{
+  float:left;
+  color: white;
+}
+#signup_photo{
+  background-image: url("../img/flowerbanner.jpg");
+  text-align: center;
+  background-repeat:no-repeat;
+  background-size: 100% auto;
+  min-height: 350px;
+  background-position:center center;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#signup_container{
+  margin: 0 auto;
+}
+#signup_container h3{
+  color: white;
+}
+.backtotop_container{
+  margin-top: 10px;
+}
+#logo_flower{
+  width: 24px;
+  display: inline;
+}
+.flex_space_around{
+  display:flex;
+  justify-content: space-around;
+}
+
+.error {
+    border: 1px solid red !important;
+}
+.photo{
+  max-width: 50%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 50px;
+  overflow:auto;
+  display:block;
+}
+.left_photo{
+  max-width: 75%;
+  margin-top: 50px;
+  overflow:auto;
+  display:block;
+}
+.basic_border_card{
+  border: 1px solid gray;
+  text-align: center;
+}
+.basic_border_card div{
+  margin: 20px;
+}
+.margin_all_sides{
+  margin: 30px;
+}
+.no_border_card{
+  text-align:center;
+}
+.no_border_card div{
+  margin:20px;
+}
+#yourGuestList{
+  width: 100%;
+}
